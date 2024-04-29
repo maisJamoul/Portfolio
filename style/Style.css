@@ -1,0 +1,29 @@
+.navbar  a{
+
+}
+.orang{
+    color:orange !important;
+}
+.navbar  a:hover{
+    /* color:rgb(255, 193, 6) !important; */
+}
+.navbar  a:active{
+    /* color:rgb(255, 193, 6) !important; */
+}
+span .icolor{
+    color:white !important;
+}
+/* Hero */
+.hero{
+    background-image: url('./../images/Hero.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:50vh;
+}
+/* skills */
+.skills i{
+    font-size:70px ;
+}
+#more
+{display: none;}

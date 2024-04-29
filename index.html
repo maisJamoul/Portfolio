@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/Style.css">
+    <link rel="stylesheet" href="./style/all.css">
+
+    <title>Portfolio</title>
+</head>
+<body class="">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg text-bg-gray bg-warning">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bolder" href="#">Mais Jamoul</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 ms-auto ">
+              <li class="nav-item fw-bold">
+                <a class="nav-link " aria-current="page" href="#about">About Me </a>
+              </li>
+              <li class="nav-item fw-bold">
+                <a class="nav-link " href="#projects">My Project</a>
+              </li>
+              <li class="nav-item fw-bold">
+                <a class="nav-link" href="#experiences">Experiences</a>
+              </li>
+              <li class="nav-item fw-bold">
+                <a class="nav-link" href="mailto:www.maisjamul369@gmail.coms">Email</a>
+              </li>
+              <li class="nav-item fw-bold">
+                <a class="nav-link" href="https://www.linkedin.com/in/me/">Linkedin</a>
+              </li>
+              
+              <li class="nav-item fw-bold">
+                <a class="nav-link" href="./resume.html">Resume</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- Hero -->
+    <div class="row mx-0 hero d-flex justify-content-center align-items-center">
+        <div class="hero-text text-white p-3 ">
+            <h1 class="hero-title fw-bolder">Software Front-end developer</h1>
+            <h3 class="hero-desc">Transforming Ideas into Digital Reality</h3>
+
+        </div>
+    </div>
+    <!-- Skills -->
+    <div class="skills row py-5">
+        <div class="col-md-3"></div>
+        <div class="col-md-6   ">
+            <div class="d-flex justify-content-between align-items-center">
+                <i class="fa-brands fa-react text-primary"></i>
+                <i class="fa-brands fa-js text-warning"></i>
+                <i class="fa-brands fa-bootstrap "></i>
+                <i class="fa-brands fa-css3-alt text-primary"></i>
+                <i class="fa-brands fa-html5 orang"></i>
+            </div>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+    <!-- About me -->
+    <div class="about-me pb-5" id="about">
+        <h3 class="about-title text-center mb-4 fw-bolder">
+            About Me
+        </h3>
+        <div class="row mx-0">
+            <div class="col-md-6 ">
+                <div class="about-img mb-3 d-flex justify-content-center align-items-center">
+                    <img src="./images//Mais_Protfolio1 (1).png" alt="mais">
+                </div>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center align-items-center">
+                <div class="about-text ">
+                    <div class="about-paragraphs my-1">
+                        <p>
+                            Hello there! My name is Mais Jamoul, and I'm a software engineer. 
+                            I enjoy facing challenges, finding solutions and help others which 
+                            brings me happiness. 
+                        </p>
+                    </div>
+                    <div class="about-paragraphs my-1">
+                        <p>
+                            As a front-end developer, I have expertise in HTML, CSS3, 
+                            and JavaScript, and I can easily convert any web page template to code. 
+                            I am also a professional in React, React Hooks, Redux-Saga, and Bootstrap.
+                        </p>
+                    </div>
+                    <div class="about-paragraphs my-1">
+                        <p>
+                            Navigating the website and finding the information 
+                            you're looking for is a satisfying experience. 
+                            It's even better when you find exactly what you want as 
+                            that sense of accomplishment is priceless, isn't it?
+                        </p>
+                    </div>
+                    <div class="about-paragraphs my-1">
+                        <p>
+                            I believe that achieving anything in life, including coding,
+                             can be done easily and simply. 
+                            However, not everyone knows this simple way.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+   
+     <!-- My projects -->
+     <div class="other-projects pb-5" id="projects">
+        <h3 class="text-center fw-bolder">My Projects</h3>
+        <div class="row mx-0">
+          <div class="col-md-4 p-2">
+            <div class="card m-3 py-3">
+              <h5 class="card-title text-center  fw-bold">Music website</h5>
+                    <img src="./images/music.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">
+                        Developed a music front-end page using React. With React, React Hooks and 
+                        Redux-Saga, you can easily discover artists, and playlists. 
+                        It enables global reach for artists and gives users access to a wide access to a wide <span id="dots" ></span>
+                      
+                      <span id="more" > range of music genres and albums from anywhere.</span>
+                      <button class="border-0  "id="btn" onclick={readMore()}>...</button>
+                    </p>
+                    <a class="btn btn-dark btn-small m-1 p-1 fs-6" href="https://maisjamoul.github.io/MusicV30/ ">Find it</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 p-2">
+                  <div class="card m-3 py-3">
+                    <h5 class="card-title text-center  fw-bold">Restaurant website</h5>
+                    <img src="./images/restaurant.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">
+                        Created a responsive front-end web page for restaurant
+                        Made it easy for customers to check out the restaurant's menu,
+                        book a table, compare prices, and is accessible 24/7
+                        and place orders without any hassle using React and React Hooks.
+                      </p>
+                      <a class="btn btn-dark btn-small m-1 p-1 fs-6" href="https://maisjamoul.github.io/RestV22/">Find it</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="card m-3 py-3">
+                        <h5 class="card-title text-center fw-bold">Store website</h5>
+                        <img src="./images/shop.PNG" class="card-img-top" alt="store">
+                        <div class="card-body">
+                          <p class="card-text">
+                            Created a e-commerce platform using React, React Hooks, 
+                            and Bootstrap powered  with a dynamic and responsive UI. It 
+                            lets you shop for a variety of products, compare prices, 
+                            and is accessible 24/7. Shop anytime, anywhere and relax.
+                          </p>
+                          <a class="btn btn-dark btn-small m-1 p-1 fs-6" href="https://maisjamoul.github.io/ShopV22/">Find it</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+    </div>
+
+     <!-- other Experiences -->
+     <div class="experiences pb-5" id="experiences">
+      <div class="text-center">
+        <h3 class="fw-bolder">Other experiences</h3>
+        <div class="">
+          <p class="mx-5 px-5">
+            Over last two year I worked in a marine company I employed my skills 
+            I improved my work by organizing and 
+            creating databases using Access database and VBA, which made 
+            my manager very satisfied with me</p>
+
+        </div>
+
+      </div>
+      <div class="row mx-0">
+      
+          <div class="col-md-6 p-2">
+              <div class="card m-3 py-3">
+                  <h5 class="card-title text-center fw-bold">Inventory vessel certificates</h5>
+                
+                  <div class="card-body">
+                    <p class="card-text">
+                      Engineered a customized program to :
+                      <ul>
+                        <li>optimize monitoring of safety equipment inventory and vessel certificates, 
+                          overseeing annual and 5-10 yearly tests,  </li>
+                        <li>resulting in enhanced operational efficiency and compliance.</li>
+                        <!-- <li>Increasing in accuracy to 90%.</li> -->
+                      </ul>
+
+                    </p>
+                  </div>
+              </div>
+          </div>
+         
+          <div class="col-md-6 p-2">
+              <div class="card m-3 py-3">
+                  <h5 class="card-title text-center fw-bold">Warehouses manging</h5>
+              
+                  <div class="card-body">
+                    <p class="card-text">
+                      Managing the warehouse has led to:Jan 2023
+                      <ul>
+                        <li>Reducing manual errors by 85%.</li>
+                        <li> Decreasing waste by creating notifications for equipment expiry.</li>
+                        <li>Increasing in accuracy to 80%.</li>
+                      </ul>
+                    </p>
+                  </div>
+              </div>
+          </div>
+
+   
+      </div>
+  </div>
+
+    <div class="experiences">
+        experiences
+    </div>
+    <script src="./script/source.js"></script>
+    <script src="./script/bootstrap.min.js"></script>
+</body>
+</html>
